@@ -8,7 +8,7 @@ header_subtitle: You have reached your destination
 ---
 ## {{< align-middle-img "/img/rotating_computer.gif" >}} \[ryan@ryanmullin.net ~\] whoami {{< align-middle-img "/img/rotating_computer.gif">}}
 
-I am a tech guru, computer scientist and l33t hacking enthusiast at Washington State University. You can usually find me browsing The Wired, in class, or working at my job at the IT center of the Voiland College of Engineering and Architecture.
-Follow the links down below to learn more.
+I'm a Neo-Luddite Kaczynskian Mainframe Hacker living in The Technological Society. The goal of this page is to stake my claim on my own few acres of land here in the world of the Wired. Hopefully this exercise in personal internet autonomy will benefit you somehow!
 
+Click the links more to explore. Take off your shoes and stay a while!
 
