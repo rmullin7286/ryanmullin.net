@@ -1,0 +1,40 @@
+main {
+    max-width: 800px;
+    margin: auto;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.displayBox {
+    background: #4c634c;
+    border: solid;
+    border-color: #43c728;
+    border-width: 5px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+body {
+    background-color: #121212;
+    color: #F8F8FF;
+    font-family: "Inconsolata";
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: red;
+}
+
+p {
+    color: ghostwhite;
+}
+
+.valign-middle {
+    vertical-align: middle;
+}
