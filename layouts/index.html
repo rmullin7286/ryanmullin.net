@@ -1,0 +1,47 @@
+{{ define "head" }}
+<script type="text/javascript" src="/js/matrix.js"></script>
+<style>
+    #text_box {
+        border: 2px solid red;
+        width: 220px;
+        margin: 20px;
+        padding: 30px;
+        background: black;
+        color: white;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    @font-face 
+    {
+        font-family: 'MatrixCode';
+        src: url("/fonts/matrix code nfi.otf") format("opentype");
+    }
+    html, body
+    {
+        background: #000;	
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    canvas { font-family: 'MatrixCode'; }
+</style>
+{{ end }}
+{{ define "main" }}
+  <p id="text_box" style="position:absolute; z-index: 1">Take the red pill to see how deep the rabbit hole goes
+    <br>
+    <br>
+    <a href='/home'>
+        <img src="./img/redpill.gif">
+    </a>
+  </p>
+  <canvas id="theMatrix" width="1920" height="912">
+    <p>Your browser doesn't support canvas...L0Z3R</p>
+  </canvas>
+  <script>
+    init();
+  </script>
+{{ end }}

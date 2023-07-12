@@ -1,0 +1,22 @@
+{{ define "title" }}
+  {{ .Title }}
+{{ end }}
+{{ define "main" }}
+<main>
+  {{ with .Params.header_title }}
+    <div id="header" class="displayBox center-text">
+      <h1>
+        {{ . }}
+      </h1>
+      {{ with $.Params.header_subtitle }}
+        <p>
+          <em>{{ $.Params.header_subtitle }}</em>
+        </p>
+      {{ end }}
+    </div>
+  {{ end }}
+  <div id="content" class="displayBox center-text">
+    {{ .Content }}
+  </div>
+</main>
+{{ end }}

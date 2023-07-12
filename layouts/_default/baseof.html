@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{block "title" .}} 
+            {{.Site.Title}}
+        {{end}}</title>
+        <link rel='stylesheet' type='text/css' href='/style.css'>
+        <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet'>
+        {{block "head" .}}
+        {{end}}
+    </head>
+    <body>
+        {{block "main" .}}
+        {{end}}
+    </body>
+</html>
